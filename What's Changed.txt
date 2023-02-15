@@ -1,0 +1,1 @@
+1. Completed Biography section, CSS Hover has been implemented and will be expanded, favicon added
