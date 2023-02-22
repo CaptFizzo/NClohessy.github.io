@@ -103,7 +103,9 @@ h2{
     text-align: center;
     color: steelblue;
 }
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
 #biograph{
 color:aliceblue;
-
 }
