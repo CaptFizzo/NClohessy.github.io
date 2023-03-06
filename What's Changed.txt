@@ -1,1 +1,2 @@
-1. Completed Biography section, CSS Hover has been implemented and will be expanded, favicon added
+3/6
+1. Completed contact section and added Bootstrap comp.

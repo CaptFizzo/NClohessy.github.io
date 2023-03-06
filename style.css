@@ -109,3 +109,6 @@ body{
 #biograph{
 color:aliceblue;
 }
+#contact a{
+    margin: 20px;
+}
