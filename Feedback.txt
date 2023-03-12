@@ -1,0 +1,12 @@
+ICA 7
+Tools used- webpagetest.org
+Changes?- 
+Added defer to javascript to improve speed
+Preloading Image, and having it load after scrolling
+Code Changes were necessary. 
+Rationale- Most things are changed for speed. In this case, webpagetest was more applicable as I’m not too worried about how many people are visiting right now, more concerned with how it operates once people visit. 
+
+
+
+
+Meetign With Peer Mentor
