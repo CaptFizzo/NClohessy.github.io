@@ -75,7 +75,7 @@ h1{
 }
 h2{
     text-align: center;
-    color: aliceblue;
+    color: black;
 }
 #biograph p{
     text-align: center;
@@ -85,8 +85,8 @@ h2{
 #navigation a{
     text-decoration:none;
     background-color: steelblue;
-    margin: 20px auto;
-    padding: 10px;
+    margin: 10px auto;
+    padding: 1px;
     border-color: lightsteelblue;
     border-radius: 20px;
     box-shadow: 10px 10px 10px #333;
@@ -105,9 +105,10 @@ h2{
 }
 body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:40px;
     }
 #biograph{
-color:aliceblue;
+color:black;
 }
 #contact a{
     margin: 20px;
@@ -115,4 +116,14 @@ color:aliceblue;
 .vidArtif{
     width:100%;
     height:auto;
+<<<<<<< HEAD
+}
+#navigation{
+    position:fixed;
+    width:25%;
+    height:auto;
+    top:0;
+    text-align: center;
+=======
+>>>>>>> b133bdb4a6be3a752f1b4c96047752b0f1746650
 }

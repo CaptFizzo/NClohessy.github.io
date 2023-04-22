@@ -8,20 +8,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous" defer></script>
     <link rel='stylesheet' href='style.css' media="print" onload="this.media='all'">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!--Improvement from ICA 7-->
     <link rel="preload" as="image" href="photo.png.JPG">
     <script src="https://kit.fontawesome.com/43b5a7a58b.js" crossorigin="anonymous"></script>
 </head>
 <body class="background">
+  
+  <div id="navigation" class="row">
+        <a href='#biograph' class="col-4"><h3>About</h3></a>
+        <a href='#portfolio' class="col-4"><h3>Portfolio</h3></a>
+        <a href='#contact' class="col-4"><h3>Contact</h3></a>
+    </div>
     <div class="container">
+        
     <h1>Nicholas Clohessy</h1>
    
-        <hr/>
-        <div id="navigation" class="row">
-            <a href='#biograph' class="col-4"><h3>About</h3></a>
-            <a href='#portfolio' class="col-4"><h3>Portfolio</h3></a>
-            <a href='#contact' class="col-4"><h3>Contact</h3></a>
-        </div>
-        <hr/>
+       
 
     <div id="biograph">
         <div class="row">
@@ -40,11 +42,14 @@
         <div class="container">
     <div class="row">
                 <div class="col-4" id="pic">
+                    <!--Improvement from ICA 7-->
             <img src ="Images/photo.png.JPG" alt="Photo of Me!" fetchpriority="high" loading="lazy">
     </div>
     <div id="portfolio" class="col-8 portfolioArtif">
+
+    <h2 class="subtitle portfolioArtif">Portfolio</h2>
         <div class="row">
-            <h2 class="subtitle">Portfolio</h2>
+            
             <div class="col-12">
                 <h2>Data Visualization Website</h2>
                 <p>
@@ -64,17 +69,18 @@
             <p>
                 This project was my first foray into VR projects. It used a 360° camera and involved 3d sound and editing, as well as VR interaction. To start from nothing and end with a narrative interactive story in VR was very exciting. It also further reinforced teamwork and project managment skills.
             </p>
-            <iframe src="Videos/GameDemo.mp4" alt ="Coming Soon" class="vidArtif"></iframe>
+            <iframe src="Videos/SideKickSearch.mp4" alt ="Coming Soon" class="vidArtif"></iframe>
         </div>
         </div>
     <div class="row">
+        <!--Make into an image if it's 1 page-->
         <div class="col-12 portfolioArtif">
             <h2>R.O.G.E.R.</h2>
             <p>
                 R.O.G.E.R. was the final product of a course of physical programming. In short, he’s a basic rotating robot that attempts to fling grapes at things that get too close. By building him, I learned how to solder, work with wires, digital inputs and outputs, motors, and putting circuit diagrams into reality.
             </p>
             <div class="row">
-            <embed src="Files/R.O.G.E.R. 1.5.pdf" alt="R.O.G.E.R." fetchpriority="high" loading="lazy">
+            <img src="Images/rogerImg.png" alt="R.O.G.E.R." fetchpriority="high" loading="lazy">
              </div>
         </div>
     </div>

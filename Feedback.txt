@@ -9,4 +9,8 @@ Rationale- Most things are changed for speed. In this case, webpagetest was more
 
 
 
-Meetign With Peer Mentor
+Meeting With Peer Mentor
+- nav bar has been adjusted to go with page
+- ROGER changed to image
+- padding added to top and bottom
+- colors adjusted for previously white text on orange to black on orange
