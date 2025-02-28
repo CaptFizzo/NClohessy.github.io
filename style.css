@@ -118,6 +118,19 @@ color:black;
     height:auto;
 <<<<<<< HEAD
 }
+    .video-container {
+      width: 100%; /* Full width of the container */
+      max-width: 800px; /* Optional: Limit to a max width if needed */
+      aspect-ratio: 16 / 9; /* Automatically maintain aspect ratio */
+      margin: auto; /* Center the container */
+    }
+
+    /* Style the iframe to fit the container */
+    .video-container iframe {
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      border: none; /* Remove border for a clean look */
+    }
 #navigation{
     position:fixed;
     width:25%;
