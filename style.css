@@ -53,8 +53,7 @@ img {
     overflow-x:auto;
 }
 #pic img:hover{
-    max-width: 102%;
-    height:auto;
+   
 }
 .portfolioArtif{
     background-color: steelblue;
@@ -104,8 +103,8 @@ h2{
     color: steelblue;
 }
 body{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding:40px;
+    font-family: 'Roboto', 'Open Sans', 'Lato', Arial, sans-serif;
+        padding:40px;
     }
 #biograph{
 color:black;
